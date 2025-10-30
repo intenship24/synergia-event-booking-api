@@ -1,0 +1,16 @@
+{
+  "name": "synergia-event-api-mongo",
+  "version": "1.0.0",
+  "description": "Synergia Event Booking API (MongoDB edition)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  }
+}
