@@ -38,10 +38,7 @@ app.get("/api/bookings", async (req, res) => {
   }
 });
 
-/*
-2) POST /api/bookings - Create a new booking
-    - validate required fields: name, email, event
-*/
+
 app.post("/api/bookings", async (req, res) => {
   try {
     const { name, email, event, ticketType } = req.body;
